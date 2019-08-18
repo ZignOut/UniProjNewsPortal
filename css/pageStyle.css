@@ -1,3 +1,4 @@
+
 /* header styles */
 header{
     border: 2px solid #3d5780;
@@ -9,8 +10,8 @@ header{
 }
 header .title{
     float: left;
-    border: 2px solid #3364b0;
-    background: #3364b0;
+    border: 2px solid #3d5780;
+    background: #3d5780;
     width: 800px;
     height: 155px;
     color: white;
@@ -60,7 +61,7 @@ header .policyQuote h2{
 }
 
 .news{
-    width: 84%;
+    width: 100%;
     margin-top: 10px;
     margin-left: 8%;
     margin-right: 8%;
@@ -69,29 +70,34 @@ header .policyQuote h2{
 /* feed page style. */
 .feedNews{
     float: left;
-    width: 75%;
+    width: 90%;
+}
+.feedNews img{
+    border-radius: 30px;
+}
+.feedNews .title{
+    color:red;
 }
 .feedNews div{
-    width: 90%;
-    margin: 10px;
-    padding: 10px;
+    width: 86.8%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 40px;
 }
-
-/* ads style. */
-.adsNews{
-    float: left;
-    width: 24%;
-    margin-left: 10px;
-    margin-top: 30px;
+.feedNews .localNews{
+    border: 2px solid #011a2b;
+    height: 500px;
+    overflow: auto;
 }
-.adsNews .title{
-    color: red;
-    font-weight: bold;
-    padding: 5px;
+.feedNews .internationalNews{
+    border: 2px solid #011a2b;
+    height: 500px;
+    overflow: auto;
 }
-.adsNews .content{
-    font-size: 15px;
-    padding: 5px;
+.feedNews .weatherNews{
+    border: 2px solid #011a2b;
+    height: 500px;
+    overflow: auto;
 }
 
 /* navigation bar sytles. */
@@ -100,17 +106,30 @@ header .policyQuote h2{
     border: 2px solid #3d5780;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 84%;
+    height: 50px;
     margin-top: 10px;
     margin-left: 8%;
     margin-right: 8%;    
 }
-.navbar .navbtn{
+.navbar .links{
+    padding-top: 13px;
+}
+.navbar .links .navbtn{
     color: aliceblue;
     margin-left: 20px;
     margin-right: 20px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
+}
+
+/* ads slide */
+.ads{
+    float: left;
+    width: 84%;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 20px;
 }
 
 /* footer style. */
@@ -127,6 +146,7 @@ footer{
 }
 footer small{
     float: left;
+    font-size: 11px;
     padding-top: 200px;
     padding-left: 20px;
     padding-bottom: 20px;
