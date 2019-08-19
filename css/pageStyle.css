@@ -12,7 +12,7 @@ header .title{
     float: left;
     border: 2px solid #3d5780;
     background: #3d5780;
-    width: 800px;
+    width: 70%;
     height: 155px;
     color: white;
     margin-top: 20px;
@@ -28,7 +28,7 @@ header .title h1{
 header .policyQuote{
     float: left;
     border: 2px solid #3d5780;
-    width: 255px;
+    width: 20%;
     height: 155px;
     overflow: hidden;
     margin-left: 10px;
@@ -86,18 +86,23 @@ header .policyQuote h2{
 }
 .feedNews .localNews{
     border: 2px solid #011a2b;
-    height: 500px;
-    overflow: auto;
+    /* height: 500px;
+    overflow: auto; */
 }
 .feedNews .internationalNews{
     border: 2px solid #011a2b;
-    height: 500px;
-    overflow: auto;
+    /* height: 500px;
+    overflow: auto; */
 }
 .feedNews .weatherNews{
     border: 2px solid #011a2b;
-    height: 500px;
-    overflow: auto;
+    /* height: 500px;
+    overflow: auto; */
+}
+.feedNews .ayalocalNews{
+    border: 2px solid #011a2b;
+    /* height: 500px;
+    overflow: auto; */
 }
 
 /* navigation bar sytles. */
